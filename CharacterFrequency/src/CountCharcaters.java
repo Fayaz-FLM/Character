@@ -19,9 +19,12 @@ public class CountCharcaters {
 		}
 		
 		System.out.println(charcatersMap);
-		
+		bye();
 		sc.close();
 	}
 	
+	public static void bye() {
+		System.out.println("Byee");
+	}
 
 }
