@@ -18,9 +18,16 @@ public class CountCharcaters {
 			charcatersMap.put(c, charcatersMap.getOrDefault(c, 0)+1);
 		}
 		
+		System.out.println("Changes");
 		System.out.println(charcatersMap);
 		
+		hi();
+		
 		sc.close();
+	}
+	
+	public static void hi() {
+		System.out.println("Hii");
 	}
 	
 
