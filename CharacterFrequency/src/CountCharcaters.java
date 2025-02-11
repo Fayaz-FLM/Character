@@ -20,9 +20,8 @@ public class CountCharcaters {
 		
 		System.out.println("Changes");
 		System.out.println(charcatersMap);
-		
 		hi();
-		
+		bye();
 		sc.close();
 	}
 	
@@ -30,5 +29,8 @@ public class CountCharcaters {
 		System.out.println("Hii");
 	}
 	
+	public static void bye() {
+		System.out.println("Byee");
+	}
 
 }
